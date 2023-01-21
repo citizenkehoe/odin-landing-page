@@ -4,55 +4,71 @@
         <meta charset="UTF-8">
         <title>Project: Landing Page</title>
         <link rel="stylesheet" href="./style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
-            <h1>1point.21</h1>
-            <a href="#">Services</a>
-            <a href="#">Partners</a>
-            <a href="#">Contact</a>
+            <div class="wrapper make-flex">
+                <h1>1point.21</h1>
+                <a href="#">Services</a>
+                <a href="#">Partners</a>
+                <a href="#">Contact</a>
+            </div>
         </header>
         <main>
             <section class="hero">
-                <div class="hero-copy">
-                    <h2>Where were going...</h2>
-                    <p>...we don't need "business as usual." 1point.21 is the leading disruptor the time-travel space, empowering users with cutting-edge soltutions that drive results and scale elegantly. Buckle up; time's here.</p>
-                    <button>Learn more</button>
+                <div class="wrapper make-flex">
+                    <div class="hero-copy">
+                        <h2>Where we're going...</h2>
+                        <p>...we don't need "business as usual." 1point.21 is the leading disruptor the time-travel space, empowering users with cutting-edge soltutions that drive results and scale elegantly. Buckle up; time's here.</p>
+                        <button>Learn more</button>
+                    </div>
+                    <img src="./img/bttf-img.jpeg" alt="Doc Brown and Marty McFly">
                 </div>
-                <img>
             </section>
             <section class="services">
-                <h2>Great, meet Scott.</h2>
-                <div class="cards">
-                    <div class="card">
-                        <img>
-                        <p>Extensive database of highly-detailed vehicle schematics and part lists, from DeLoreans to locomotives.</p>
-                    </div>
-                    <div class="card">
-                        <img>
-                        <p>Comprehensive alias identity solutions mean present, past, and future personas stay 100% separate.</p>
-                    </div>
-                    <div class="card">
-                        <img>
-                        <p>Our expert team of relationship therapists will help untangle accidental romantic overtures from parents.</p>
-                    </div>
-                    <div class="card">
-                        <img>
-                        <p>Patented manure and fecal waste cleaning process will restore any personal disaster to brand new condition.</p>
+                <div class="wrapper">
+                    <h2>Great, meet Scott.</h2>
+                    <div class="cards">
+                        <div class="card">
+                            <img src="./img/blueprints.jpg" alt="Image of blueprints">
+                            <p>Extensive database of highly-detailed vehicle schematics and part lists, from DeLoreans to locomotives.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/passport.jpg" alt="Image of passport, watch, and other personal items">
+                            <p>Comprehensive identity alias solutions mean present, past, and future personas stay 100% separate.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/therapist.jpg" alt="Image of therapy session">
+                            <p>Our expert team of relationship therapists will help untangle accidental romantic overtures from parents.</p>
+                        </div>
+                        <div class="card">
+                            <img src="./img/cow.jpg" alt="Image of demure cow">
+                            <p>Patented manure and fecal waste cleaning process will restore any personal disaster to like-new condition.</p>
+                        </div>
                     </div>
                 </div>
             </section>
             <section class="quote">
-                <blockquote>"Your future hasn't been written yet. No one's has. Your future is whatever you make it, so make it a good one."</blockquote>
-                <p class="citation">—Doc Brown</p>
+                <div class="wrapper">
+                    <blockquote>"Your future hasn't been written yet. No one's has. Your future is whatever you make it, so make it a good one."</blockquote>
+                    <p class="citation">—Emmett Lathrop Brown, Ph.D</p>
+                </div>
             </section>
             <section class="cta">
-                <div class="cta-copy">
-                    <h2>This is heavy. In a good way.</h2>
-                    <p>Our team of friendly service representatives are standing by to answer your questions.</p>
+                <div class="wrapper">
+                    <div class="cta-box">
+                        <div class="cta-copy">
+                            <h2>This is heavy. In a good way.</h2>
+                            <p>Our team of friendly service representatives are standing by to answer your questions, literally anytime.</p>
+                        </div>
+                        <button>Contact us</button>
+                    </div>
                 </div>
-                <button>Contact us</button>
             </section>
         </main>
         <footer>Copyright © 1885 1point.21</footer>
